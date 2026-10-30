@@ -1,0 +1,53 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+mlflow.db
+mlruns/
+artifacts/*
+!artifacts/.gitkeep
+data/*.csv
+.DS_Store
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+
+# Generated ML artifacts
+artifacts/
+models/
+data/generated/
+data/processed/
+*.joblib
+*.pkl
+
+# OS and IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+.coverage
+htmlcov/
